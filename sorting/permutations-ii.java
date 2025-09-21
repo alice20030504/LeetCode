@@ -6,7 +6,17 @@
 
 // Backtracking + sorting + skip rule
 
+// Complexity Analysis
 
+// Time Complexity:
+// Worst-case number of unique permutations ≤ n!.
+// Each permutation requires O(n) to copy.
+// So upper bound: O(n * n!).
+// Actual is smaller when duplicates exist.
+// Space Complexity:
+// Recursion depth: O(n)
+// Used array: O(n)
+// Result storage: up to O(n * n!).
 
 
 import java.util.*;
