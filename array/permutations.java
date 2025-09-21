@@ -16,7 +16,7 @@
 
 import java.util.*;
 
-public class Permutations {
+public class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         boolean[] used = new boolean[nums.length];
