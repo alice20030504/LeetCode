@@ -1,17 +1,17 @@
-Problem Analysis
-We need to count how many connected components of land ('1') exist in a 2D grid.
-Connected means adjacent horizontally or vertically (not diagonally).
-Each time we find a land cell '1', we can run DFS/BFS to mark the entire island as visited.
-Finally, count how many times we initiate a search.
-This is the classic "Number of Islands" problem → solved with DFS / BFS / Union-Find.
+// Problem Analysis
+// We need to count how many connected components of land ('1') exist in a 2D grid.
+// Connected means adjacent horizontally or vertically (not diagonally).
+// Each time we find a land cell '1', we can run DFS/BFS to mark the entire island as visited.
+// Finally, count how many times we initiate a search.
+// This is the classic "Number of Islands" problem → solved with DFS / BFS / Union-Find.
 
-Complexity Analysis
-Time Complexity:
-Each cell is visited at most once.
-O(m * n).
-Space Complexity:
-Recursion depth = O(m * n) in worst case (all land).
-Iterative BFS version would use a queue of size up to O(m * n).
+// Complexity Analysis
+// Time Complexity:
+// Each cell is visited at most once.
+// O(m * n).
+// Space Complexity:
+// Recursion depth = O(m * n) in worst case (all land).
+// Iterative BFS version would use a queue of size up to O(m * n).
 
 
 class Solution {
