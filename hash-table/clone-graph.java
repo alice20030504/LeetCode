@@ -16,7 +16,7 @@
 import java.util.*;
 
 // Definition for a Node.
-class Node {
+class Solution {
     public int val;
     public List<Node> neighbors;
     public Node() {
