@@ -15,23 +15,6 @@
 
 import java.util.*;
 
-// Definition for a Node.
-class Solution {
-    public int val;
-    public List<Node> neighbors;
-    public Node() {
-        neighbors = new ArrayList<Node>();
-    }
-    public Node(int val) {
-        this.val = val;
-        neighbors = new ArrayList<Node>();
-    }
-    public Node(int val, ArrayList<Node> neighbors) {
-        this.val = val;
-        this.neighbors = neighbors;
-    }
-}
-
 class Solution {
     private Map<Node, Node> visited = new HashMap<>();
 
