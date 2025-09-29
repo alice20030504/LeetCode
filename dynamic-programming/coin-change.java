@@ -1,4 +1,13 @@
-// Classic unbounded knapsack / coin change problem.
+// This is the classic Coin Change problem.
+// Idea: Dynamic Programming (DP).
+// Define dp[i] = the minimum number of coins needed to make up amount i.
+// Initial: dp[0] = 0, and all other positions are initialized to ∞ (e.g., amount + 1).
+// State transition:
+// dp[i] = min(dp[i], dp[i - coin] + 1) (coin <= i)
+// Final answer: If dp[amount] is still ∞, return -1; otherwise, return dp[amount].
+
+// Time complexity: O(n * amount), where n = coins.length.
+// Space complexity: O(amount).
 
 import java.util.*;
 
