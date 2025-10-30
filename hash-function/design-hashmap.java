@@ -62,4 +62,31 @@ class MyHashMap {
                 return;
             }
         }
-        bucket.add(new Pair(key, value)); // Insert ne
+        bucket.add(new Pair(key, value)); // Insert new
+    }
+
+    /** Return the value associated with key, or –1 if not found. */
+    public int get(int key) {
+        int index = hash(key);
+        LinkedList<Pair> bucket = buckets[index];
+
+        for (Pair p : bucket) {
+            if (p.key == key) return p.value;
+        }
+        return -1;
+    }
+
+    /** Remove key (and its value) if present. */
+    public void remove(int key) {
+        int index = hash(key);
+        LinkedList<Pair> bucket = buckets[index];
+
+        Iterator<Pair> it = bucket.iterator();
+        while (it.hasNext()) {
+            if (it.next().key == key) {
+                it.remove();
+                return;
+            }
+        }
+    }
+}
