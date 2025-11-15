@@ -16,7 +16,7 @@ class Solution:
         for index, node in enumerate(lists):
             if node:
                 heapq.heappush(min_heap,(node.val,index,node))
-        dummy = listNode()
+        dummy = ListNode()
         curr = dummy
 
         while min_heap:
