@@ -21,7 +21,7 @@ class Solution:
 
         while min_heap:
             val, index, node = heapq.heappop(min_heap)
-            cuRr.next = node
+            curr.next = node
             curr = curr.next
 
             if node.next:
