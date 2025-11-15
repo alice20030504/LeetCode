@@ -13,7 +13,7 @@ class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         min_heap = []
 
-        for index, node in eumerate(lists):
+        for index, node in enumerate(lists):
             if node:
                 heapq.heappush(min_heap,(node.val,index,node))
         dummy = listNode()
