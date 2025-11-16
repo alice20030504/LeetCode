@@ -28,4 +28,4 @@ class Solution:
                         grid[nx][ny]=2
                         fresh -=1
                         queue.append((nx,ny))
-        return minutes if fresh ==0 else -1
+        return minutes if fresh == 0 else -1
