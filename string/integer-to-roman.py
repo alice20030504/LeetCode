@@ -6,7 +6,7 @@ class Solution:
         for val, sys in val_sysms:
         # While num is greater than or equal to the value, append the symbol and subtract the value
             while num >= val:
-                res += sym
+                res += sys
                 num -=val
             return res
         
