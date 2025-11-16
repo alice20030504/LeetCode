@@ -12,7 +12,7 @@ class Solution:
                 box_index = (i//3)*3+(j//3)
                 if num in rows[i] or num in cols[j] or num in boxes[box_index]:
                     return False
-                row[i].add(num)
+                rows[i].add(num)
                 cols[j].add(num)
                 boxes[box_index].add(num)
-            return True
+        return True
