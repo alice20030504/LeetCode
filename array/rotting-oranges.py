@@ -16,7 +16,7 @@ class Solution:
             return 0
 
         minutes = 0
-        direction = [(-1,0),(1,0),(0,-1),(0,1)]
+        directions = [(-1,0),(1,0),(0,-1),(0,1)]
 
         while queue and fresh > 0:
             minutes += 1
