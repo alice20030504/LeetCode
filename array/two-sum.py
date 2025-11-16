@@ -5,7 +5,7 @@ class Solution:
         num_map = {} #Stores number and its index
         for i, num in enumerate(nums):
             complement = target - num
-            if complemet in num_map:
+            if complement in num_map:
                 return [num_map[complement], i]
             num_map[num] = i #Store index of current number
         
