@@ -5,8 +5,8 @@ class Solution:
         res = ""
         for val, sys in val_syms:
         # While num is greater than or equal to the value, append the symbol and subtract the value
-        while num >= val:
-            res += sym
-            num -=val
-        return res
+            while num >= val:
+                res += sym
+                num -=val
+            return res
         
