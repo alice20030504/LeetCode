@@ -7,6 +7,6 @@ class Solution:
         # While num is greater than or equal to the value, append the symbol and subtract the value
             while num >= val:
                 res += sym
-                num -=val
+                num -= val
             return res
         
