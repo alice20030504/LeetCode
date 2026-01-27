@@ -2,76 +2,10 @@
 
 ## A) PowerPoint-style Layout
 
-### Overall Structure
+## Overall Structure
+### Design Image
 
-**TOP SECTION - Primary Washing Instructions**
-- Section title: "CARE INSTRUCTIONS" (or no title, just start with content)
-- Font size: 20pt, bold, ALL CAPS
-- Alignment: left
-- Spacing below: 8pt
-
-**Primary washing instructions block:**
-- Each instruction on separate line
-- Font size: 14pt, bold
-- Alignment: left
-- Line spacing: 1.2×
-- Spacing between items: 6pt
-- No bullet points, use line breaks
-- Key warnings (Do not...) can use slightly larger size: 16pt
-
-**Example format:**
-```
-CARE INSTRUCTIONS
-
-100% Cotton
-Cold wash machine
-Do not dry clean
-Wash dark separately
-Do not bleach
-```
-
----
-
-**MIDDLE SECTION - Drying and Ironing Instructions**
-- Section title: "DRYING & IRONING" (optional, or can be implied)
-- Font size: 18pt, bold, ALL CAPS
-- Alignment: left
-- Spacing above: 16pt
-- Spacing below: 8pt
-
-**Drying/ironing instructions block:**
-- Each instruction on separate line
-- Font size: 13pt, regular weight (not bold)
-- Alignment: left
-- Line spacing: 1.2×
-- Spacing between items: 6pt
-- Indent: 12pt from left margin (to show hierarchy)
-
-**Example format:**
-```
-DRYING & IRONING
-
-  Wash inside out
-  Do not tumble dry
-  Line dry in shade
-  Warm iron on reverse
-```
-
----
-
-**BOTTOM SECTION - Product Information**
-- Font size: 10pt, regular weight
-- Alignment: left
-- Spacing above: 20pt
-- Line spacing: 1.0×
-- Indent: 24pt from left margin (further indented to show it's least important)
-- Can use lighter gray if printing (but since no color allowed, just smaller size)
-
-**Example format:**
-```
-        Made in China
-        RFC# 910911-040
-```
+![Care label design](difficult_design.png)
 
 ---
 
