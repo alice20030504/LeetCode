@@ -4,7 +4,7 @@
 
 ### Overall slide structure
 
-![Menu design](images/easy_menu_design.png)
+![Menu design](menu.png)
 
 ## B) Conceptual groups
 
