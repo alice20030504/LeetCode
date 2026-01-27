@@ -3,7 +3,7 @@
 ## A) PowerPoint-style Layout
 
 ## Overall Structure
-### Design Image
+### Care label Design Image
 
 ![Care label design](difficult_design.png)
 
